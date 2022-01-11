@@ -13,7 +13,6 @@
                 data-test="todo-checkbox"
             />
         </div>
-
         <form data-test="form" @submit.prevent="createTodo" >
             <input data-test="new-todo" v-model="newTodo" />
         </form>
